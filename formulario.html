@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agregar Empleado</title>
+    <!-- Bootswatch Theme -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">Formulario Empleado</a>
+    </nav>
+
+
+    <div class="container">
+        <!-- APPLICATION -->
+        <div id="App" class="row pt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Agregar Empleado</h4>
+                    </div>
+                    <form id="empleado-form" class="card-body">
+                        <div class="form-group">
+                            <input type="number" id="dui" placeholder="Dui" class="form-control" readonly>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="nombre" placeholder="Empleado" class="form-control" id="requerido">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="departamento" placeholder="Departamento" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="salario" placeholder="Salario" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="estadoCivil" placeholder="Estado Civil" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" id="nit" placeholder="Nit" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="estado"> &nbsp; Activo
+                        </div>
+
+                        <a type="button" value="Cancelar" class="btn btn-primary" href="index.html">Cancelar</a>
+                        <input type="submit" value="Grabar" class="btn btn-primary">
+                    </form>
+                </div>
+            </div>
+
+            <div id="empleado-list" class="col-md-8"></div>
+        </div>
+    </div>
+
+    <script src="js/Formulario.js"></script>
+</body>
+
+</html>

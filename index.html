@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- DataTable -->
+    <link rel="stylesheet" type="text/css" href="./plugins/DataTable/datatables.min.css" />
+
+    <title>Prueba | Frontend</title>
+</head>
+
+<body class="container">
+    <h1 id="logo">Listado Empleado</h1>
+    <hr>
+    <a type="button" class="btn btn-primary" href="formulario.html">Agregar</a>
+    <br>
+    <table id="empleado">
+        <thead>
+            <tr>
+
+                <th>Empleado</th>
+                <th>DUI</th>
+                <th>Salario</th>
+                <th>Activo</th>
+                <th>Accion</th>
+            </tr>
+        </thead>
+        <tbody id="content">
+        </tbody>
+    </table>
+
+    <script src="./js/Lista.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="./plugins/DataTable/datatables.min.js"></script>
+    <script type="text/javascript" src="./plugins/DataTable/DataTables-1.10.21/js/jquery.dataTables.min.js"></script>
+</body>
+
+</html>

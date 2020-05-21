@@ -1,0 +1,58 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 15px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#logo {
+  font-family: Verdana, Arial;
+  font-size: 28px;
+  letter-spacing: 4px;
+  line-height: 75px;
+  color: rgb(21, 147, 231);
+  text-align: center;
+  width: 385px;
+  height: 80px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* Estilos del formulario */
+.success,
+.error {
+  color: white;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+
+.success {
+  background: green;
+}
+
+.error {
+  background: red;
+}
+
+input #requerido {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus #requerido {
+  box-shadow: none;
+}
+
+a {
+  float: right;
+}

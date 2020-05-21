@@ -1,0 +1,74 @@
+[
+  {
+    "dui": 1,
+    "nombre": "Prueba de titulo 1",
+    "departamento": "Publicado el dia",
+    "salario": 1500000,
+    "estadoCivil": "Soltero",
+    "estado": true,
+    "nit": "123456",
+    "afp": "12000",
+    "isss": "42000",
+    "renta": "1201222"
+  },
+  {
+    "dui": 2,
+    "nombre": "Prueba de titulo 2",
+    "departamento": "Publicado el dia",
+    "salario": 1500000,
+    "estadoCivil": "Soltero",
+    "estado": false,
+    "nit": "123456",
+    "afp": "12000",
+    "isss": "42000",
+    "renta": "1201222"
+  },
+  {
+    "dui": 3,
+    "nombre": "Prueba de titulo 3",
+    "departamento": "Publicado el dia",
+    "salario": 1500000,
+    "estadoCivil": "Soltero",
+    "estado": false,
+    "nit": "123456",
+    "afp": "12000",
+    "isss": "42000",
+    "renta": "1201222"
+  },
+  {
+    "dui": 4,
+    "nombre": "Prueba de titulo 4",
+    "departamento": "Publicado el dia",
+    "salario": 1500000,
+    "estadoCivil": "Soltero",
+    "estado": true,
+    "nit": "123456",
+    "afp": "12000",
+    "isss": "42000",
+    "renta": "1201222"
+  },
+  {
+    "dui": 5,
+    "nombre": "Prueba de titulo 5",
+    "departamento": "Publicado el dia",
+    "salario": 1500000,
+    "estadoCivil": "Soltero",
+    "estado": true,
+    "nit": "123456",
+    "afp": "12000",
+    "isss": "42000",
+    "renta": "1201222"
+  },
+  {
+    "dui": 6,
+    "nombre": "Prueba de titulo 6",
+    "departamento": "Publicado el dia",
+    "salario": 1500000,
+    "estadoCivil": "Soltero",
+    "estado": true,
+    "nit": "123456",
+    "afp": "12000",
+    "isss": "42000",
+    "renta": "1201222"
+  }
+]
