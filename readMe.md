@@ -12,3 +12,14 @@ Crud a una tabla empleado de la cual se calculara el salario de acuerdo a los de
 - Eclipse IDE
 - Backend JAVA SpringBoot
 - Frontend HTML CSS JS
+
+## Frontend
+
+Dado que el front fue desarrollado en javascript solo es necesario tener instalado un servidor local que interprete el lenguaje
+como puede ser `Xampp`o `WamppServer`, colocaremos nuestra app en la carpeta correspondiente para
+Xampp - htdocs y para Wampp - www.
+Luego vamos a nuestro http://localhost/examenPractico y se debe cargar la siguiente inteface
+
+## Backend
+
+[Backend](https://github.com/luismartinezo/examenPractico/tree/master/backend)

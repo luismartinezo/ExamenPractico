@@ -24,10 +24,3 @@ Error: Connection refused: connect. Verify the connection properties,
 check that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port,
 and that no firewall is blocking TCP connections to the port.´
 [Consultar el siguiente enlace](https://dzone.com/articles/configuring-spring-boot-for-microsoft-sql-server)
-
-## Frontend
-
-Dado que el front fue desarrollado en javascript solo es necesario tener instalado un servidor local que interprete el lenguaje
-como puede ser `Xampp`o `WamppServer`, colocaremos nuestra app en la carpeta correspondiente para
-Xampp - htdocs y para Wampp - www.
-Luego vamos a nuestro http://localhost/examenPractico y se debe cargar la siguiente inteface
