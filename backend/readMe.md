@@ -10,6 +10,8 @@ Existe dos metodos para la ejecucion del servidor Backend en Spring Boot, pero e
 
 ## Estructura de Carpetas
 
+![scaffolding](https://github.com/luismartinezo/examenPractico/blob/master/backend/src/main/resources/assets/img/back.png?raw=true)
+
 ### Archivo application.properties
 
 Es necesario cnfigurar algunos parametros en este archivo para la conexion a la base de datos tales como:
