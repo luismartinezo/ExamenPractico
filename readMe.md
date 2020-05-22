@@ -20,6 +20,10 @@ como puede ser `Xampp`o `WamppServer`, colocaremos nuestra app en la carpeta cor
 Xampp - htdocs y para Wampp - www.
 Luego vamos a nuestro http://localhost/examenPractico y se debe cargar la siguiente inteface
 
+![](../../../../assets/img/scaffolding.png?raw=true)
+![scaffolding](https://github.com/luismartinezo/examenPractico/blob/master/img/listaEmpleados.png?raw=true)
+![scaffolding](https://github.com/luismartinezo/examenPractico/blob/master/img/formEmpleado.png?raw=true)
+
 ## Backend
 
 [Backend](https://github.com/luismartinezo/examenPractico/tree/master/backend)
